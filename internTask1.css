@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title h1{
+    margin: 4% 35% ;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(227, 12, 238);
+    color: white;
+    margin-bottom: 2%;
+    font-weight: bold;
+    width:25%;
+}
+.title p{
+    width: 50%;
+    text-align: center;
+    margin: 0% 25%;
+    font-weight: 300;
+}
+h1 span{
+    color: black;
+}
+p span{
+    color: rgb(227, 12, 238) ;
+    font-weight: 500;
+}
+.line{
+    width: 60%;
+    margin: 0% 20%;
+    border-style: dashed ;
+    color:  rgb(227, 12, 238);
+    border-width: 1.5px;
+}
+.team h1{
+    text-align: center;
+}
+.team i{
+    color:rgb(227, 12, 238) ;
+    font-size: 30px;
+}
+.team1 h3{
+    background-color:  rgb(227, 12, 238);
+    width: 30%;
+    font-size: 20px;
+    margin:0px 10px;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px;
+}
+.team1 h3:hover{
+    width: 50%;
+}
+.team2 h3:hover{
+    width: 50%;
+}
+.team3 h3:hover{
+    width: 50%;
+}
+.team1 i{
+    color: white;
+    font-size: 30px;
+}
+.team2 i{
+    color: white;
+    font-size: 30px;
+}
+.team2 h3{
+    background-color:  rgb(227, 12, 238);
+    width: 30%;
+    font-size: 20px;
+    margin:0px 10px;
+    float: right;
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px;
+}
+.team3 h3{
+    background-color:  rgb(227, 12, 238);
+    width: 30%;
+    font-size: 20px;
+    margin:0px 10px;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px;
+}
+.team3 i{
+    color: white;
+    font-size: 30px;
+}
+
+.container1{
+    display: flex;  
+    justify-content: space-around ;
+    flex-wrap: wrap;
+}
+.container2{
+    display: flex;  
+    justify-content: space-around ;
+    flex-wrap: wrap;
+}
+.container1,.container2 p{
+    font-size: 20px;
+}
+.container1,.container2 div{
+    text-align: center;
+}
+.container1 img{
+    border-radius: 50%;
+}
+.container2 img{
+    border-radius: 50%;
+}
+.final{
+    border-bottom: 3px solid rgb(227, 12, 238);
+}
+
+/*Medial query*/
+
+@media (max-width:480px){
+    .title h1{
+        width: 70%;
+        margin: 4% 16%;
+        font-size: 22px;
+    }
+    .title p{
+        width: 80%;
+        text-align: center;
+        margin: 0% 9%;
+    } 
+    .team1 h3{
+        width: 100%;
+        background-color: white;
+        color:rgb(227, 12, 238) ;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .team1 i{
+        color:rgb(227, 12, 238);
+        font-size: 15px;
+    }
+    .team2 h3{
+        width: 100%;
+        background-color: white;
+        color:rgb(227, 12, 238) ;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .team2 i{
+        color:rgb(227, 12, 238);
+        font-size: 15px;
+    }
+    .team3 h3{
+        width: 100%;
+        background-color: white;
+        color:rgb(227, 12, 238) ;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .team3 i{
+        color:rgb(227, 12, 238);
+        font-size: 15px;
+    }
+    .container1{
+        padding: 5px;
+    }
+    .container2{
+        padding: 5px;
+    }
+    .container1 img{
+        width: 100px;
+    }
+    .container2 img{
+        width: 100px;
+    }
+    .container1 p{
+        font-size: 10px;
+    }
+    .container2 p{
+        font-size: 10px;
+    }
+    .pad1{
+        margin-top: 7px;
+    }
+    .pad2{
+        margin-top: 8px;
+    }
+}
+@media (max-width:1000px){
+    .title h1{
+        width: 70%;
+        margin: 4% 16%;
+        font-size: 22px;
+    }
+    .title p{
+        width: 80%;
+        text-align: center;
+        margin: 0% 9%;
+    } 
+    .team1 h3{
+        width: 100%;
+        background-color: white;
+        color:rgb(227, 12, 238) ;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .team1 i{
+        color:rgb(227, 12, 238);
+        font-size: 15px;
+    }
+    .team2 h3{
+        width: 100%;
+        background-color: white;
+        color:rgb(227, 12, 238) ;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .team2 i{
+        color:rgb(227, 12, 238);
+        font-size: 15px;
+    }
+    .team3 h3{
+        width: 100%;
+        background-color: white;
+        color:rgb(227, 12, 238) ;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .team3 i{
+        color:rgb(227, 12, 238);
+        font-size: 15px;
+    }
+    .container1{
+        padding: 5px;
+    }
+    .container2{
+        padding: 5px;
+    }
+    .container1 img{
+        width: 100px;
+    }
+    .container2 img{
+        width: 100px;
+    }
+    .container1 p{
+        font-size: 10px;
+    }
+    .container2 p{
+        font-size: 10px;
+    }
+
+}
